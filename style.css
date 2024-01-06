@@ -184,7 +184,7 @@ html {
     font-size: 1.6rem;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     .navbar {
       height: 7rem;
       bottom: 11%;

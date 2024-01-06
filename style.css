@@ -99,7 +99,7 @@ html {
   color: #000000;
   position: relative;
   transition: color 0.5s;
-  
+
 }
 
 .link:hover {
@@ -166,7 +166,7 @@ html {
   }
 
   .navbar {
-    bottom: 9rem;
+    bottom: 11rem;
   }
 
   .section-2 {
@@ -180,6 +180,51 @@ html {
   }
 
   .link {
-    font-size: 2rem;
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 400px) {
+
+    .section-1 {
+      width: 100%;
+      height: 80vh;
+    }
+
+    .section-1-heading {
+      font-size: 1.9rem;
+      padding: 0 1rem;
+      margin-bottom: 5rem;
+    }
+
+    .section-1-sub-heading {
+      font-size: 1.6rem;
+      padding: 0 1rem;
+      margin-bottom: 5rem;
+    }
+
+    .name {
+      font-size: 2rem;
+      margin: 3rem 0;
+      padding: 0.5rem 3rem;
+    }
+
+    .navbar {
+      height: 10rem;
+      bottom: 7rem;
+    }
+
+    .section-2 {
+      height: 20vh;
+    }
+
+    .copyright {
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      margin-top: 7rem;
+    }
+
+    .link {
+      font-size: 1.6rem;
+    }
   }
 }

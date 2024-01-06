@@ -167,7 +167,7 @@ html {
 
   .navbar {
     height: 8rem;
-    bottom: 11%;
+    bottom: 11%;  
   }
 
   .section-2 {
@@ -191,7 +191,7 @@ html {
     }
 
     .copyright {
-      margin-top: 14%;
+      margin-top: 11%;
     }
   }
 }

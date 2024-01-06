@@ -20,12 +20,6 @@ html {
   align-items: center;
 }
 
-::selection {
-  background-color: #fff; /* White selection */
-  color: #3498db; /* Dark blue text for good contrast */
-  border: 1px solid #3498db; /* Blue border */
-}
-
 /* Section 1 */
 .section-1 {
   width: 100%;
@@ -44,6 +38,7 @@ html {
   background-color: #ea6100;
   padding: 0 3rem;
   margin-bottom: 0rem;
+  margin-top: 10rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   border-bottom: 0.3rem solid #fff;
@@ -80,7 +75,7 @@ html {
   font-size: 2rem;
   color: #fff;
   background-color: #ea6100;
-  margin: 5rem 0;
+  margin: 4rem 4rem;
   padding: 0.5rem 3rem;
   letter-spacing: 0.3rem;
 }
@@ -137,23 +132,12 @@ html {
 }
 
 .copyright {
-  color: #aaa;
+  color: #dddddd;
   font-size: 2rem;
   letter-spacing: 0.2rem;
   font-weight: 300;
   text-align: center;
   margin-top: 12rem;
-}
-
-p a.link {
-  color: #aaa;
-  font-size: 2rem;
-  letter-spacing: 0.2rem;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 3.5rem;
-  text-transform: lowercase;
-  margin: 0 1rem;
 }
 
 @media (max-width: 600px) {
